@@ -1,13 +1,9 @@
 <?php
 //
-// $Id: ezinfo.php 21 2011-06-22 20:24:05Z dpobel $
-// $HeadURL: http://svn.projects.ez.no/ezclasslists/tags/ezclasslists_1_2/ezclasslists/ezinfo.php $
-//
-// Created on: <30-May-2009 16:57 damien pobel>
-//
-// SOFTWARE NAME: eZ Class Lists
-// SOFTWARE RELEASE: 1.2
+// SOFTWARE NAME: Exponential Class Lists
+// SOFTWARE RELEASE: 1.3
 // COPYRIGHT NOTICE: Copyright (C) 1999-2011 Damien POBEL
+//                   Copyright (C) 2026 7x
 // SOFTWARE LICENSE: GNU General Public License v2.0
 // NOTICE: >
 //   This program is free software; you can redistribute it and/or
@@ -26,12 +22,13 @@
 
 class ezclasslistsInfo
 {
-    static function info()
+    public static function info()
     {
-        return array( 'Name' => "<a href=\"http://projects.ez.no/ezclasslists\">eZ Class lists</a> extension",
-                      'Version' => "1.2",
-                      'Copyright' => "Copyright (C) 1999-2011 Damien POBEL",
-                      'License' => "GNU General Public License v2.0"
+        return array( 'Name' => "Exponential Class Lists",
+                      'Version' => "1.3",
+                      'Copyright' => "Copyright (C) 1999-2011 Damien POBEL, Copyright (C) 2026 7x",
+                      'License' => "GNU General Public License v2.0",
+                      'Info_url' => "https://github.com/se7enxweb/ezclasslists"
                       );
     }
 }
