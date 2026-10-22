@@ -48,13 +48,3 @@
     </p>
     </form>
 </div></div></div></div></div></div>
-<script type="text/javascript">
-YUILoader.require(['utilities', 'event']);
-YUILoader.onSuccess = function() {ldelim}
-
-    var o = {ldelim} baseURL: {'classlists/list'|ezurl( 'single' )}, loader: {'loader.gif'|ezimage( 'single' )} {rdelim};
-    YAHOO.util.Event.addListener("class-list-menu-form", "submit", classListsFilter, o);
-
-{rdelim};
-YUILoader.insert({ldelim}{rdelim}, 'js');
-</script>

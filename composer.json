@@ -1,19 +1,33 @@
 {
-    "name": "dpobel/ezclasslists-ls",
-    "description": "Adds a tab in the Administration Interface that lists objects by content class and lets you quickly edit or delete them. ",
+    "name": "se7enxweb/ezclasslists",
+    "description": "Adds a \"Lists by class\" tab to the Exponential administration interface that lists content objects by content class, sorted and paged, so they can be viewed, edited or removed quickly.",
     "type": "ezpublish-legacy-extension",
-    "authors": [        
+    "keywords": ["exponential", "exponential-extension", "ezpublish-legacy", "admin", "content class", "list"],
+    "homepage": "https://github.com/se7enxweb/ezclasslists",
+    "license": "GPL-2.0-only",
+    "authors": [
         {
             "name": "Damien Pobel",
-            "homepage": "http://projects.ez.no/ezclasslists"
+            "homepage": "https://github.com/dpobel",
+            "role": "Original author"
+        },
+        {
+            "name": "7x",
+            "homepage": "https://se7enx.com",
+            "email": "info@se7enx.com",
+            "role": "Maintainer"
         }
     ],
-    "license": "GPL-2.0",    
-    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://github.com/se7enxweb/ezclasslists/issues",
+        "source": "https://github.com/se7enxweb/ezclasslists"
+    },
     "require": {
-        "ezsystems/ezpublish-legacy-installer": "*"
+        "php": ">=8.0",
+        "se7enxweb/ezpublish-legacy-installer": "*"
     },
     "extra": {
+        "installer-name": "ezclasslists",
         "ezpublish-legacy-extension-name": "ezclasslists"
     }
 }
